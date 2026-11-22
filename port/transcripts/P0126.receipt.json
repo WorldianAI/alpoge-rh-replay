@@ -1,0 +1,569 @@
+{
+  "target": "P0126",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/26869",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "lean_version": "Lean (version 4.36.0, arm64-apple-darwin24.6.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "ebcee129f22bf1547e98d2fdd0128fb8ae2d3a23",
+  "stack_base_commit": "b708d816bfda463e0a14de66533700d8f6739212",
+  "dependency_overlay": {
+    "pr": "https://github.com/rohanarun/alpoge-rh-replay/pull/28188",
+    "commit": "b708d816bfda463e0a14de66533700d8f6739212",
+    "module": "M163043",
+    "record_sha256": "f5b0cda8bca893f27c7776b53dad7a1f4b15b698c15eb6961272384f83876cca",
+    "patch_sha256": "9b3759a77880c26e82114dc8959a2a4403cdc75b573a388a80fd8cffee3e96e2"
+  },
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "build_log_sha256": "f7e04663c3524436bf83f3b867cb7b582a1b36e49b299065bbf0463767e60917",
+  "log_digest_scope": "published section body and terminal newline",
+  "audit": {
+    "result": "islattice-audit: 53 module(s), 0 hit(s)",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b"
+  },
+  "modules": [
+    {
+      "id": "M079959",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsDomainOfIsIntegrallyClosedOfIsReducedStatement",
+      "source_sha256": "763a5ddabe57a8e5c674d2668856a37ad5c8acac7f6372a40c385d7c8991cbd8",
+      "built_source_sha256": "763a5ddabe57a8e5c674d2668856a37ad5c8acac7f6372a40c385d7c8991cbd8",
+      "patch_sha256": null,
+      "olean_sha256": "50064c97a58447fe29fffc26a807aff8a50e33c1eb489fb929d81f9914f4dcc2",
+      "log_sha256": "43ee3e58829c5308bc884000229bc94f83cb7f21fcd7c69b452780292c7ea7be",
+      "exit_code": 0
+    },
+    {
+      "id": "M079977",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsFractionRingStalkGenericStatement",
+      "source_sha256": "27d812da886c087cc6b3804ac8ba2c7de03d4fb8880ff4a7a2cc3378af2737e9",
+      "built_source_sha256": "27d812da886c087cc6b3804ac8ba2c7de03d4fb8880ff4a7a2cc3378af2737e9",
+      "patch_sha256": null,
+      "olean_sha256": "30d5b258c00e6ce839dda000de4797770407665a4f512cc486f69f962a29fd34",
+      "log_sha256": "28a0dd88944ba58e6dd4ecc43e0bfc85eb37f8addaaac437a646698e9a4cfa67",
+      "exit_code": 0
+    },
+    {
+      "id": "M080008",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsIntegrallyClosedOfConductorNonZeroDivisorOfAss",
+      "source_sha256": "51054a13a448393e0ef684c3842ef7b051c1e357d7020b66a1505a24da36a65a",
+      "built_source_sha256": "51054a13a448393e0ef684c3842ef7b051c1e357d7020b66a1505a24da36a65a",
+      "patch_sha256": null,
+      "olean_sha256": "6e45ecb21ce2335cfb7d3f6111bd0742ca1b0a64da27a8357e54f60310a7860d",
+      "log_sha256": "d4920298a0cb046df1aeb153ee3045839d8231b84042b133f8ee3b5137c31e1c",
+      "exit_code": 0
+    },
+    {
+      "id": "M080092",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsPreconnectedPolydiscFirstCoordsNeZeroStatement",
+      "source_sha256": "d1f189d4d04281eb343ed514f9b78040504d69a5b1df01ca3e2d2c6fd2d9b7dc",
+      "built_source_sha256": "d1f189d4d04281eb343ed514f9b78040504d69a5b1df01ca3e2d2c6fd2d9b7dc",
+      "patch_sha256": null,
+      "olean_sha256": "e151c92ce75be600a2db380472fc5c786f2e247aff5ee153e817cf4c9f8cc9db",
+      "log_sha256": "30b423efa4bee1d78163ce67aea775809bc8db11a146f3731154f14b5156c3d5",
+      "exit_code": 0
+    },
+    {
+      "id": "M080117",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsQuadOfPlane",
+      "source_sha256": "78b43d57fff8e09b48e29a911039250033291869086dae051aff4261b5f9c140",
+      "built_source_sha256": "78b43d57fff8e09b48e29a911039250033291869086dae051aff4261b5f9c140",
+      "patch_sha256": null,
+      "olean_sha256": "e4b4f9557bc19fcf197bd80d87aba2e8c977622433f376df4283851e202e1271",
+      "log_sha256": "501277eda9f7d766485550729a331ba19dd8037d36b3e609c530728ed750f54a",
+      "exit_code": 0
+    },
+    {
+      "id": "M080124",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsReducedOfNonZeroDivisorMemJacobsonOfAssociatedStatement",
+      "source_sha256": "ab0a3001397e4a5af266ecf6f4d208f47c0fb7e56e1b8851cab739943d5f0417",
+      "built_source_sha256": "ab0a3001397e4a5af266ecf6f4d208f47c0fb7e56e1b8851cab739943d5f0417",
+      "patch_sha256": null,
+      "olean_sha256": "e7b1de008bc6e9932742a987f3038b7d66a01ab3296ab27508eb29d44daaea9d",
+      "log_sha256": "d2fea14a376b15faa19b06bf34aa523449acf38c3d876ee036e4fb65fbe84ec0",
+      "exit_code": 0
+    },
+    {
+      "id": "M080171",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsUnitMapOfMemNonZeroDivisorsTensorStatement",
+      "source_sha256": "2d05abd1b4340b3d210a1fe8fdd7bc702d0f6788b60c11a060f738593a8a1507",
+      "built_source_sha256": "2d05abd1b4340b3d210a1fe8fdd7bc702d0f6788b60c11a060f738593a8a1507",
+      "patch_sha256": null,
+      "olean_sha256": "63908221489917b03e4d54b697d9e40cfa0d26f30d0dd1330a52fae4028740f2",
+      "log_sha256": "816577126e37840359ef72bae820287e8bdd152f5e3068b6334f427dd2aba3db",
+      "exit_code": 0
+    },
+    {
+      "id": "M080283",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LamGeoEqFormula",
+      "source_sha256": "16f98766a923d4a8831ba2cc2a3ae575ecf352718a68a1bd6883e2318ded1473",
+      "built_source_sha256": "16f98766a923d4a8831ba2cc2a3ae575ecf352718a68a1bd6883e2318ded1473",
+      "patch_sha256": null,
+      "olean_sha256": "7c9ad03ef9b7d776d7e01bbf2e4afbc27821be86461b2717e2af0b9221660553",
+      "log_sha256": "46e4c11147b09245def997428810b302df631ed064d391d2dd8f93d487f79797",
+      "exit_code": 0
+    },
+    {
+      "id": "M080312",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LatticeElementaryDivisors",
+      "source_sha256": "a3ee75f56e15472ea9de0acb975ea78fb6704e55e81e7e2485dd27ce9453294b",
+      "built_source_sha256": "24c975b9b19b8bf64d329e7d8a74e5c7dbeb3ceab0e8622ee8d366fd507fffe6",
+      "patch_sha256": "b923b9f26acdec2c75b4f74a7b97910204dbd1c140b99b5e4d05fbacca804d24",
+      "olean_sha256": "311bfe1615a9ffc870ea085f6fe4f1fcb18883486507e984ded06fbdd30c2060",
+      "log_sha256": "00923f71eb4599124db0d45bcffd416dd3b1db3f3505cb1b44ba879d97fb3509",
+      "exit_code": 0
+    },
+    {
+      "id": "M080351",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LaurentMonomialOfMultiplicativeStatement",
+      "source_sha256": "4a3bff14c45ce3bd68c028641073457c22758c2ba6732fbd6728e7a834beffc9",
+      "built_source_sha256": "4a3bff14c45ce3bd68c028641073457c22758c2ba6732fbd6728e7a834beffc9",
+      "patch_sha256": null,
+      "olean_sha256": "58d9ab856e7a988813b10466a3e96fc47b533fda75c93a9453882c986d159547",
+      "log_sha256": "55cdbef65d8776eec573a6160b7e19374e5c40a01b1138ddbabf7e9adaff27cf",
+      "exit_code": 0
+    },
+    {
+      "id": "M080353",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LaurentPolyEvalOfLaurentStatement",
+      "source_sha256": "a9844370c5a63350bea6bef38b076fecce012792435653c80cc387f54051b4b9",
+      "built_source_sha256": "a9844370c5a63350bea6bef38b076fecce012792435653c80cc387f54051b4b9",
+      "patch_sha256": null,
+      "olean_sha256": "52b834dd375a89e4aea55b7d777f45fe523325c60ea34d44a74ef5b8215ac021",
+      "log_sha256": "be176b5c363222f8f6e678e83884b647f456f2f22f03757d489d66719b5600da",
+      "exit_code": 0
+    },
+    {
+      "id": "M080561",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LineHyperplaneCut",
+      "source_sha256": "8ea34ef012a5f0687e22f91887f4dbf6b44523b3a57ce2ae29bf11616a8dc68b",
+      "built_source_sha256": "85809189d39887ee90ab89dc548fa5a2fb3cf3e68bf414b73ec4432f17f8851c",
+      "patch_sha256": "f601f57a4937e943db142989018d68d4e47beb6e29d1dadf461f7af625d77cd8",
+      "olean_sha256": "854aa095cef37d8031673741e6904a1ade72215bea22b9c1b8b2cd3e7be336e1",
+      "log_sha256": "519fba2aefe63fec371ac762f5451b7d9fa63bfd888eefb8c0aed4dc6a144679",
+      "exit_code": 0
+    },
+    {
+      "id": "M080701",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig",
+      "source_sha256": "723c539df6d7ab97527f656f2b8b9b06c3a1a07258f91e2cf3bcbb5cfb81102e",
+      "built_source_sha256": "723c539df6d7ab97527f656f2b8b9b06c3a1a07258f91e2cf3bcbb5cfb81102e",
+      "patch_sha256": null,
+      "olean_sha256": "75aed11a0630493c4f2c87d9da92a18ff0ba242384aa1d7b116727a8e20bcffa",
+      "log_sha256": "e56227a5f9fb7a01f26e65496ecf096ac5c414ee768700d0233bd498a2525756",
+      "exit_code": 0
+    },
+    {
+      "id": "M080708",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationMaximalIdealMapStatement",
+      "source_sha256": "b1c3073b68e92222b5fa2d67c623f1e258e758c54ab246b89992e2f8b20cee14",
+      "built_source_sha256": "b1c3073b68e92222b5fa2d67c623f1e258e758c54ab246b89992e2f8b20cee14",
+      "patch_sha256": null,
+      "olean_sha256": "7c49622fa596ff06b10f429fc62770d963176fc743cbcc30a7a0af9d04c319bc",
+      "log_sha256": "dfd315c42d50496ed66b7e451fb2dc1e2fa78656d9106de92ad6b081885295aa",
+      "exit_code": 0
+    },
+    {
+      "id": "M080710",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationResidueFiniteUnramStatement",
+      "source_sha256": "3ef662ed6124185b96c796cdd275c439142b25aacaa8ccb25b88abc3dd496b0b",
+      "built_source_sha256": "3ef662ed6124185b96c796cdd275c439142b25aacaa8ccb25b88abc3dd496b0b",
+      "patch_sha256": null,
+      "olean_sha256": "46bccc8cf16a583c1243d6ea370a4c6f9558619ce83e1cc2df5b323178b70071",
+      "log_sha256": "aab4de9082d776262639df793f5c7124ed2e344c9ff0fc89b69bc1975fe54305",
+      "exit_code": 0
+    },
+    {
+      "id": "M080713",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocallyBoundedOffCoordinateHyperplanesStatement",
+      "source_sha256": "e2d5987d7c2ac279b5774bd150aeb547886937405e4131c7f1857a70e2c0abf7",
+      "built_source_sha256": "e2d5987d7c2ac279b5774bd150aeb547886937405e4131c7f1857a70e2c0abf7",
+      "patch_sha256": null,
+      "olean_sha256": "5bcff7fe532c5b342ef1f874860efd1be657d999597f98bd38256cb50e82f61a",
+      "log_sha256": "0e4bdb2e1417e8ec5fa5cc13a95192bd04f0d577839cfc3acbe153119123f491",
+      "exit_code": 0
+    },
+    {
+      "id": "M080893",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MemSpanMapOfEvalMemOfNeZeroStatement",
+      "source_sha256": "3ac6b983401015056b4a87f040200b65679b29c408c8b6dc1810b232eb10e054",
+      "built_source_sha256": "3ac6b983401015056b4a87f040200b65679b29c408c8b6dc1810b232eb10e054",
+      "patch_sha256": null,
+      "olean_sha256": "85935dec38cbeb75de6778f667b66169b463e792804f0ce5a91f9ba0a9582d0f",
+      "log_sha256": "529b87791cf8a869fb6abc2656181e457068f4c270d7928e2923fdd8edc69e55",
+      "exit_code": 0
+    },
+    {
+      "id": "M080964",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MonoCharOfMulPolyDivPowStatement",
+      "source_sha256": "1a320968874d030ed3c6411fb745a16191cca591409b73b58538d032e92bd12c",
+      "built_source_sha256": "1a320968874d030ed3c6411fb745a16191cca591409b73b58538d032e92bd12c",
+      "patch_sha256": null,
+      "olean_sha256": "f564486b69f96995a14e281d3ee75d71cea4b740ac369ba1bfd742b11aeea8d0",
+      "log_sha256": "367033e86154019a76e0976f6115476b8875ce1894ac05e89496bd3a846366c2",
+      "exit_code": 0
+    },
+    {
+      "id": "M081033",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MvPolynomialClearDenominatorsEvalStatement",
+      "source_sha256": "13d8774bff92962ab0e02381c31f9fd0d8ae76f596d1d8e8f40f73cd07df0926",
+      "built_source_sha256": "13d8774bff92962ab0e02381c31f9fd0d8ae76f596d1d8e8f40f73cd07df0926",
+      "patch_sha256": null,
+      "olean_sha256": "855e6dea4e4550e80088938bbd0991ba241c88cb55cf310ccab3ea825e4622c1",
+      "log_sha256": "e8aa612b6411e83eba5aa0c833f32ca8b69098918de5e76e85fd1b8c6763618e",
+      "exit_code": 0
+    },
+    {
+      "id": "M081051",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NatCastMulCoeffCharpolyRev",
+      "source_sha256": "874391830494104a51e782d86739b03ad4cad1f92bcb4842b9e71a881806e973",
+      "built_source_sha256": "874391830494104a51e782d86739b03ad4cad1f92bcb4842b9e71a881806e973",
+      "patch_sha256": null,
+      "olean_sha256": "21de6b0a8f41846d6daf78ddd39cb35389da7823a22a5488ce8549b1d0efb3db",
+      "log_sha256": "a0f70a0768aa356447f4453abd95af72ac74a868d3faa738b1c478ad28053dbd",
+      "exit_code": 0
+    },
+    {
+      "id": "M081136",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormDetOfRealLeFactorialMulPowStatement",
+      "source_sha256": "d267003f4ab7340b621bed3f4c46eeebb73d5534fc66597757ef6f8e3aa6c183",
+      "built_source_sha256": "d267003f4ab7340b621bed3f4c46eeebb73d5534fc66597757ef6f8e3aa6c183",
+      "patch_sha256": null,
+      "olean_sha256": "830a8008d1b3d1e411d5cb8ff1da2b3b8df628646769f2c429005875890396c9",
+      "log_sha256": "e37280792ec717fcfe28d3f1b4a8717bb6fd2704b4898dd73b735c732423a197",
+      "exit_code": 0
+    },
+    {
+      "id": "M081160",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormSmulLeOneOfPrimitiveBoundedPowersStatement",
+      "source_sha256": "18d4f929de96fcaaa1b487fa747e1eb520002984b2c3db7a287179e48dbd1a95",
+      "built_source_sha256": "18d4f929de96fcaaa1b487fa747e1eb520002984b2c3db7a287179e48dbd1a95",
+      "patch_sha256": null,
+      "olean_sha256": "b01c1c27489d7139d6f2b23861158bcc9cf83d827b468d18ab83ffd245c3f9e6",
+      "log_sha256": "e629af0cb3ac9bddac03e5e4422bc12d61a2e4fbbcec674db2528567f102e1ea",
+      "exit_code": 0
+    },
+    {
+      "id": "M081323",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PeriodicLeftHalfPlaneShiftNonnegOfImPosStatement",
+      "source_sha256": "7fc63dacfc8777cf15d2415a2261b4c44c974e8068394ec85f0118bd5e6b84cc",
+      "built_source_sha256": "7fc63dacfc8777cf15d2415a2261b4c44c974e8068394ec85f0118bd5e6b84cc",
+      "patch_sha256": null,
+      "olean_sha256": "d9684c72d2cf9ca0257e06be0c5f2a9392ac0c971385e0c0e2ac85526717d665",
+      "log_sha256": "001efc9b2d1280d5be40d59e3c22b03f8a29891a5c1754878503a6a292884d17",
+      "exit_code": 0
+    },
+    {
+      "id": "M081472",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolyDerivRenameOfConvex",
+      "source_sha256": "7a3eed005dc7cd858d6626079add50773e3667b6ca6eae48907e5631c26dcc2f",
+      "built_source_sha256": "7a3eed005dc7cd858d6626079add50773e3667b6ca6eae48907e5631c26dcc2f",
+      "patch_sha256": null,
+      "olean_sha256": "73252bf4dbf59d4d6f871a621746c30eab960cc8f8de2c79a347d5aa15dc42c2",
+      "log_sha256": "86124acd5cabfa800c30a631a1bb6f535e43d946cdaa4a71066d9107e4986586",
+      "exit_code": 0
+    },
+    {
+      "id": "M081482",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolynomialApproxPowMaximalStatement",
+      "source_sha256": "33a5ab6dbef7977148480117e22f80276682198fb0ccdc02564ebc6d4273f39b",
+      "built_source_sha256": "33a5ab6dbef7977148480117e22f80276682198fb0ccdc02564ebc6d4273f39b",
+      "patch_sha256": null,
+      "olean_sha256": "10d0efea9f79be5b842508b73ab1520675fb9edd42488ee21796b3579d5fdf0e",
+      "log_sha256": "bd8d04c9b3e4cc84ffc8211820d1d3d0a4bae7a84d09f2eae9d9b284b0a69e37",
+      "exit_code": 0
+    },
+    {
+      "id": "M081484",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolynomialApproxUniquenessStatement",
+      "source_sha256": "c73952bd466408674967eb9f2cc6660f888cb3be97052ab8b383b31d5026a045",
+      "built_source_sha256": "c73952bd466408674967eb9f2cc6660f888cb3be97052ab8b383b31d5026a045",
+      "patch_sha256": null,
+      "olean_sha256": "6554c7d71536cf5fc55da0e930614146babf60b1e4fd34d59ce2facc8b9f7d81",
+      "log_sha256": "b5db479039a135500bb1a9830fc7d0a2375b5047f3ae67fd1fdc0852bca24288",
+      "exit_code": 0
+    },
+    {
+      "id": "M081518",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PosDefQuadMarginStatement",
+      "source_sha256": "ff99be596d2d34fe69fd7d484b217975d76d500f3b7f1fc6751c5e3ddbd346c8",
+      "built_source_sha256": "ff99be596d2d34fe69fd7d484b217975d76d500f3b7f1fc6751c5e3ddbd346c8",
+      "patch_sha256": null,
+      "olean_sha256": "ddd16656b90c8c7c3a7e0f9bea5b53da615dcf251753be24687a6865cd3c3211",
+      "log_sha256": "c3557474b973e1e73d9950d8c7979db25a5de9644ae4692a2d495df43193f10e",
+      "exit_code": 0
+    },
+    {
+      "id": "M081523",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PosSemidefRealOfIntQuadFormNonnegStatement",
+      "source_sha256": "b1c01cfe002dd9a677c8550a85e2b0f5e69bd84a71193c4705e8041bb436f9b9",
+      "built_source_sha256": "b1c01cfe002dd9a677c8550a85e2b0f5e69bd84a71193c4705e8041bb436f9b9",
+      "patch_sha256": null,
+      "olean_sha256": "e6aee58b241a1635a5a4c2661f215322c63486d1d26f9bba603b9be8f77a846f",
+      "log_sha256": "125af095d1e8d1ed62994ab85a5f4db109e29cc3619100593fa5d5324b4d2b83",
+      "exit_code": 0
+    },
+    {
+      "id": "M081547",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PreimageGenericFiberIsOpen",
+      "source_sha256": "69082eda33efbb2d44d77ab69e76299786c35d5170dc19c741a0cb7ae674747b",
+      "built_source_sha256": "69082eda33efbb2d44d77ab69e76299786c35d5170dc19c741a0cb7ae674747b",
+      "patch_sha256": null,
+      "olean_sha256": "99aa2111cf5049969ded85a5d26b10fc4b7185e743ca758e4247cbe4f029d8ab",
+      "log_sha256": "e7d807cd66d2b56a1d2696602f8cbf087982cab465c2b8fe249d46ceaddc6a7b",
+      "exit_code": 0
+    },
+    {
+      "id": "M081557",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PrimeIdealsCountingBounds",
+      "source_sha256": "973ae562f834e0e0f02d8e578806608743a2096ca6124a79f18cfa20ef53cdb2",
+      "built_source_sha256": "973ae562f834e0e0f02d8e578806608743a2096ca6124a79f18cfa20ef53cdb2",
+      "patch_sha256": null,
+      "olean_sha256": "eeb380d1c6781098d4df4fb50b7aa600502dac521494c8108ebe16c8bea51eb0",
+      "log_sha256": "0b5dd5df694b33dff03b414d44061c5668ef1af5e594191723b9e8eb6d5550c2",
+      "exit_code": 0
+    },
+    {
+      "id": "M081723",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RatAlternatingOrthogonalOrthogonalLeStatement",
+      "source_sha256": "4101fb829f9ec5a5afdcc15f1b8606c1304108f325d411313e809343ddea8569",
+      "built_source_sha256": "4101fb829f9ec5a5afdcc15f1b8606c1304108f325d411313e809343ddea8569",
+      "patch_sha256": null,
+      "olean_sha256": "4667e782f055e9e426c2596b76742bd78c5fd1ef5a4868493d82357bd76fed59",
+      "log_sha256": "9721c498a0f643d02c3796f4a4fb31fb09eacfdd8d9f438fee036b5b8b6fb561",
+      "exit_code": 0
+    },
+    {
+      "id": "M081730",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RatMemSpanOfRealMemSpanFinStatement",
+      "source_sha256": "3795165653676aab2cc20dc01ceed71e349b58f08955b53dcd17cbf89b1e474b",
+      "built_source_sha256": "3795165653676aab2cc20dc01ceed71e349b58f08955b53dcd17cbf89b1e474b",
+      "patch_sha256": null,
+      "olean_sha256": "deff8247c83f787e6bde01599497995194623038717aecf2314d87e1a52dd472",
+      "log_sha256": "1d2b88e8323171b0ec351e073f7f5c2d2b9cf3ff72771687f7fff516eed1a865",
+      "exit_code": 0
+    },
+    {
+      "id": "M081772",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RayDataNonempty",
+      "source_sha256": "22e7b2b89137b87bd6668fd617e25a560de29fa7124d398b8436582ec2c8117d",
+      "built_source_sha256": "22e7b2b89137b87bd6668fd617e25a560de29fa7124d398b8436582ec2c8117d",
+      "patch_sha256": null,
+      "olean_sha256": "4f9c85b251c223c5458c79cd845417fbabfe98d48be0535598333fb84ede2cc7",
+      "log_sha256": "e5a3d1ded52bec7b536ef806caecbf14ef1884781af6eefdaf306a05b4fbdb56",
+      "exit_code": 0
+    },
+    {
+      "id": "M081779",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RayLSeriesEulerProduct",
+      "source_sha256": "640104e38aa0c9f2b78d304afda431280b5fc8832e8572bd99639e7cc14f4418",
+      "built_source_sha256": "640104e38aa0c9f2b78d304afda431280b5fc8832e8572bd99639e7cc14f4418",
+      "patch_sha256": null,
+      "olean_sha256": "03808822dada1bd1c6acc5fe8a88750763f335b30d825e55bc1019e514a286ba",
+      "log_sha256": "37d067f639b2458cc846e7ba0ed0e9e2b8ce7d4b04e87cfc6d451373a056dcb2",
+      "exit_code": 0
+    },
+    {
+      "id": "M081856",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RegularLocalRingNormalDomain",
+      "source_sha256": "00f17d039ab6a26c113cac68d5dd745e248e469ee4dc5aeacb37b3a5cd28bf0e",
+      "built_source_sha256": "00f17d039ab6a26c113cac68d5dd745e248e469ee4dc5aeacb37b3a5cd28bf0e",
+      "patch_sha256": null,
+      "olean_sha256": "7c2655a89765387c3615eea3f65ecd03b4d45e2f8b936c7e0aeee88c53d59f34",
+      "log_sha256": "e180328d66ebe94c05456b2f5a1dc2cd592ae77feb97f98025142cdca7a67584",
+      "exit_code": 0
+    },
+    {
+      "id": "M081902",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ResidueFieldMapFiniteOfQuasiFiniteStatement",
+      "source_sha256": "dd6141c4c048b9757df818223d59e59170f012bb280217c4f1f26e89de652f8c",
+      "built_source_sha256": "dd6141c4c048b9757df818223d59e59170f012bb280217c4f1f26e89de652f8c",
+      "patch_sha256": null,
+      "olean_sha256": "5d92dd48d3a5387fd7f970a429f49986e3abf30b56029fd6a9ccebfaf63027e4",
+      "log_sha256": "9f304092b0b65039e8295cbd6028cb4a9559148fc2c2a7556db3cdaeb4599675",
+      "exit_code": 0
+    },
+    {
+      "id": "M081917",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ReversedCharpolyCoeffInDomainMul",
+      "source_sha256": "f06e91cb26ab8d7b060ef9951345aef256d71bec0736f42d2c3314f035af68cb",
+      "built_source_sha256": "d40c346ea6f69d1a890a5fe6b7e7fcb84304847dcfe270141b5313d076eaccd0",
+      "patch_sha256": "7cead57891dbfd737af7b3b7a97baa3aade4ffb072deaa4a14bf298ea14716a8",
+      "olean_sha256": "9be39e1f4033bb2f09c3c8f0a95b39c8026d5f046843fc6999d5be8dd0876e9d",
+      "log_sha256": "b7e051a557ab9ee5925c80e8cd6ba4724b01a0846094e0cc02a0739f3813e57c",
+      "exit_code": 0
+    },
+    {
+      "id": "M081939",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RightTranslationCurveSqLeAndIntegralDerivEqZeroAStatement",
+      "source_sha256": "444924dae47e93ccad46605c15e95831ea73715be57f13eda07054da539cc7b9",
+      "built_source_sha256": "444924dae47e93ccad46605c15e95831ea73715be57f13eda07054da539cc7b9",
+      "patch_sha256": null,
+      "olean_sha256": "44f2840eeca12cead4723aca3bd56135fb69fc2b4fc48e3860790733a6113277",
+      "log_sha256": "8d12b5ea41e0ae711a65589a932386ec3c7ec4c517dae7dfb4f5541d3f815b63",
+      "exit_code": 0
+    },
+    {
+      "id": "M081950",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RingKrullDimLtTopOfEssFiniteTypeStatement",
+      "source_sha256": "86cb242d5fb8972b1a34de4453c56a196d3653d3f7a4f004257b6cdcf5670510",
+      "built_source_sha256": "86cb242d5fb8972b1a34de4453c56a196d3653d3f7a4f004257b6cdcf5670510",
+      "patch_sha256": null,
+      "olean_sha256": "26720fb810a722f75489a8158fb82a8e56e6f7e97b292d1b73438168e2f914e6",
+      "log_sha256": "6be4fa9a485dec72c05dc357d35d3ae420013c9d49aa7626715a4979c22660ea",
+      "exit_code": 0
+    },
+    {
+      "id": "M082058",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SchurComplementBlockQuadraticLowerBoundStatement",
+      "source_sha256": "2f129649814f0989dd3c47121f1885a65cf4719c79fba2647d084455037fdda5",
+      "built_source_sha256": "2f129649814f0989dd3c47121f1885a65cf4719c79fba2647d084455037fdda5",
+      "patch_sha256": null,
+      "olean_sha256": "dc6551343ed9bf75e440a12be7bc05e21f88ae12c27187ce7228ce0d40ab5b79",
+      "log_sha256": "908aaf92d711d706e0612ff3fe79f97f137ec684786d039736dd14a9c281747a",
+      "exit_code": 0
+    },
+    {
+      "id": "M082068",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SchurOrthogonalitySubgroupMeasureOneStatement",
+      "source_sha256": "af1918103d07f96783517daf38238e333b645d4e7ce79a871641b7958699b7bd",
+      "built_source_sha256": "af1918103d07f96783517daf38238e333b645d4e7ce79a871641b7958699b7bd",
+      "patch_sha256": null,
+      "olean_sha256": "3b4f4a23ce0d2908a480b13388e506e2368fb81d4c6db098305e1c5bc904c282",
+      "log_sha256": "abd5a0c13f154839d3307b4aadd7d3d1211c847756a7f37926149ef256fe5a6a",
+      "exit_code": 0
+    },
+    {
+      "id": "M082107",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SelfDualLatticeStandardAtRationalPrimeStatement",
+      "source_sha256": "1c6f160a198aa9743e98975ba8d4944291b2cccfa32e7e8fb8bb1d86f9b0f2be",
+      "built_source_sha256": "1c6f160a198aa9743e98975ba8d4944291b2cccfa32e7e8fb8bb1d86f9b0f2be",
+      "patch_sha256": null,
+      "olean_sha256": "6fbeed420836fee264a2ba21c10565d0215248b0600c1bbcac2cb4418861a17a",
+      "log_sha256": "01314f1a7d14875555d9c82752e23ef12295709e434a233f98b7bbc6b27a9b75",
+      "exit_code": 0
+    },
+    {
+      "id": "M082220",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SmoothRelativeDimOfTrdeg",
+      "source_sha256": "c4cc173b7936717de88f21c595c213c40728117f26174c01f306fd2466385a18",
+      "built_source_sha256": "c4cc173b7936717de88f21c595c213c40728117f26174c01f306fd2466385a18",
+      "patch_sha256": null,
+      "olean_sha256": "a038775c02bc54e6af5ad763d60b555551689082e7a5c374cdc0726845eca904",
+      "log_sha256": "7f541cfa56c87362508dd4b48d3c45d4e488bc9669c1cd61e8e1b5d54ceb0506",
+      "exit_code": 0
+    },
+    {
+      "id": "M082533",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SymmetricBlockTraceInverseEqTwoMul",
+      "source_sha256": "06f8b0a83a2080efcc6b5575fcee95f3e198461c1e505ec58157896a069162a2",
+      "built_source_sha256": "06f8b0a83a2080efcc6b5575fcee95f3e198461c1e505ec58157896a069162a2",
+      "patch_sha256": null,
+      "olean_sha256": "ec79812ad9034e5bfba27e0be03abb083d1201379608691dd0c9c3c243353f72",
+      "log_sha256": "44a49784f34bf51f683f0d3cab63540f030eb0f909adff8468c856eaaaaf91b7",
+      "exit_code": 0
+    },
+    {
+      "id": "M082611",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TensorDomainBirationalStatement",
+      "source_sha256": "b9d1e7d8236a0d14a5d46ed91c0af0f0dcbf4706a5a75c3e564b2b7d6abd4e0e",
+      "built_source_sha256": "b9d1e7d8236a0d14a5d46ed91c0af0f0dcbf4706a5a75c3e564b2b7d6abd4e0e",
+      "patch_sha256": null,
+      "olean_sha256": "6c2adde78a0eed61bab9fedc99cfb8790f5009863262fa39f9ab99e7a4c0d265",
+      "log_sha256": "6637723f473115309acc2ebbb053a23b4ac4b6caa02ff773d38b15eb49dbd207",
+      "exit_code": 0
+    },
+    {
+      "id": "M082623",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TensorResidueUnramifiedFiniteStatement",
+      "source_sha256": "392b844bbee19bd861c49017e2a789903261dbf64e1d8490194a0bf0addfd002",
+      "built_source_sha256": "392b844bbee19bd861c49017e2a789903261dbf64e1d8490194a0bf0addfd002",
+      "patch_sha256": null,
+      "olean_sha256": "cdb38dcd707b8f598df0b47b6ec28b19c616823e3994677968d11314127c8aa0",
+      "log_sha256": "69cdda9297eb9625a3c0f21e90e9f0be53e632c1c4a434c4b188a0ab437a9a78",
+      "exit_code": 0
+    },
+    {
+      "id": "M082759",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TotalDegreeSubstFLe",
+      "source_sha256": "6b2d97c76884e49635cd69fd3b850ed7a79f2fccb759048bffd419ab03c13168",
+      "built_source_sha256": "6b2d97c76884e49635cd69fd3b850ed7a79f2fccb759048bffd419ab03c13168",
+      "patch_sha256": null,
+      "olean_sha256": "0da0954109589aa0aa6e482dd45696392082407f7a414923e505fe4855893cfe",
+      "log_sha256": "4473d1bf13b62fdabe82a65d4b191c6c5471bdb18ce58e6d803a9febe16ce814",
+      "exit_code": 0
+    },
+    {
+      "id": "M082769",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TracePowGrassmannBlockCurvatureSupertraceZero",
+      "source_sha256": "4c0267c4353d73d546c0263229dc0669e23b7d59faad1a118e6d40cf388b8740",
+      "built_source_sha256": "4c0267c4353d73d546c0263229dc0669e23b7d59faad1a118e6d40cf388b8740",
+      "patch_sha256": null,
+      "olean_sha256": "b2b0d681378b2cd89b94f790d447b83ea7d397291e35499763afc8c496d16a3a",
+      "log_sha256": "9a5d239f1cef21be43cba07a2911d95c8f0524d4af16d1dffe27a7958756c8ae",
+      "exit_code": 0
+    },
+    {
+      "id": "M083017",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UnitaryFamilyEqCayleyOfSkewFamilyStatement",
+      "source_sha256": "a0d096b618c7f174809390bf15fe8cb28c591d5740bc6f95d2695d81968157d2",
+      "built_source_sha256": "a0d096b618c7f174809390bf15fe8cb28c591d5740bc6f95d2695d81968157d2",
+      "patch_sha256": null,
+      "olean_sha256": "b4ce4ef0a0fd19b3abc807e33ca733903307f67678ec2af129dd315876057577",
+      "log_sha256": "3ec3404d1895f6b563557a7f2cb2349a59ea1924c2d10b6449d4a31c11fd1936",
+      "exit_code": 0
+    },
+    {
+      "id": "M083046",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UnitriangularInductionTransvectionStatement",
+      "source_sha256": "c14bd82a1504e2dc8573abaa63baf7fb0bea6a86bebbd0545da2366094d80f9a",
+      "built_source_sha256": "c14bd82a1504e2dc8573abaa63baf7fb0bea6a86bebbd0545da2366094d80f9a",
+      "patch_sha256": null,
+      "olean_sha256": "5136987d460d57f63e0617dd9480c3b1597ea88d4a21561bcd49eb5fb06dc100",
+      "log_sha256": "fad0272ce138a6faad95679d9a3a06388c52edbdb19d5a7602e82657ef2acea1",
+      "exit_code": 0
+    },
+    {
+      "id": "M083083",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.VLeOne",
+      "source_sha256": "55f39b3cb0b4fb45e13a9d608c883ffda17a7b3d8fee753ed61c9707e1e8b5a1",
+      "built_source_sha256": "55f39b3cb0b4fb45e13a9d608c883ffda17a7b3d8fee753ed61c9707e1e8b5a1",
+      "patch_sha256": null,
+      "olean_sha256": "dcfebf121b739966e4c2ccd7efb6edba3293cf31b703f7bd3693a7454190a9fd",
+      "log_sha256": "351af24738c807a227af7dabff9264c5e07fd6cfd62334f40c5909278f317500",
+      "exit_code": 0
+    },
+    {
+      "id": "M083487",
+      "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ConvergentSubstOneVariableAndFormalAgreement",
+      "source_sha256": "9320020a40857f75b48a2ff6d4a0361733a803453f9bf378475decd153536967",
+      "built_source_sha256": "9320020a40857f75b48a2ff6d4a0361733a803453f9bf378475decd153536967",
+      "patch_sha256": null,
+      "olean_sha256": "2ed88ca2afbedc75714449acb10eb274fc96e8d99de337c45881ce940b7bf603",
+      "log_sha256": "66358a280d2dc15d45f5db549a010fcfe73e540af3c40b98d566de721e9ff313",
+      "exit_code": 0
+    },
+    {
+      "id": "M083549",
+      "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.DifferentPowerUnramifiedIff",
+      "source_sha256": "3c8158546d13624b0b82750c329a013e5655ff4747be1ece270d588ffad74eae",
+      "built_source_sha256": "3c8158546d13624b0b82750c329a013e5655ff4747be1ece270d588ffad74eae",
+      "patch_sha256": null,
+      "olean_sha256": "bcf1a465c1c81db1d26c8305d26b91f2704a919fde794db2074df463fb585166",
+      "log_sha256": "43c3ecf14229e05c0044875daba9d389a2abe6c24d4950e93ba15aff734f32d0",
+      "exit_code": 0
+    }
+  ],
+  "remaining": [],
+  "pruned": [
+    "M080271",
+    "M080309",
+    "M080788",
+    "M081520",
+    "M081575",
+    "M081833",
+    "M081897",
+    "M082360",
+    "M082367",
+    "M082538",
+    "M082792"
+  ]
+}
