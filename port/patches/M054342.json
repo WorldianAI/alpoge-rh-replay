@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TsumResidueClassSplitBySign",
+  "source_sha256": "689169c65c78a37cc3fe9ce48296aca0fa8365207f17d7b5546837a00517a32c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-m054342-lean436/receipt.json"
+}
