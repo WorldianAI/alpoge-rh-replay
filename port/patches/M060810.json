@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.MvPowerSeriesExistsPolynomialTotalDegreeLeSubMemStatement",
+  "source_sha256": "bfb3e3be2a88125702850a2386dd643c165f0469dbe158eb6341c218cf368552",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-m060810-lean436/receipt.json"
+}
